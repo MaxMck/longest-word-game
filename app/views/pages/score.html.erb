@@ -1,0 +1,16 @@
+<h1>Now your result</h1>
+
+<div class="cadre">
+  <p>Your word: <%= @name %></p>
+  </br>
+  <p>Time taken to answer: <%= @time %> sec</p>
+  </br>
+  <p>Translation: <%= @translation %></p>
+  </br>
+  <p>Your score: <%= @score %></p>
+  </br>
+  <p>Message: <%= @message %></p>
+</div>
+
+
+<%= link_to "Play Again", game_path %>

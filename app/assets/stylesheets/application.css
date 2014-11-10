@@ -13,3 +13,20 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  text-align: center;
+  background: url("pattern1.jpeg") fixed center;
+  color: black;
+  font-weight: bold;
+}
+
+h1 {
+  color: white;
+  padding-bottom: 80px;
+  text-shadow: 2px 2px 8px black;
+}
+
+.cadre {
+ padding-bottom: 150px;
+}
